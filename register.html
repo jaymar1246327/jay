@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Register</title>
+</head>
+<body>
+    <header>
+        <h1>Register</h1>
+    </header>
+    <nav>
+        <a href="www.google.com"></a>
+    </nav>
+    <footer>
+        <p>Website mo to</p>
+    </footer>
+
+   <form>
+       First Name:  <input type="text"  name="first name"> <br> <br> <!--to input a info in a box-->
+       Last Name:   <input type="text"  name="last name"> <br> <br>
+       Email:       <input type="email" name="email" required> <br> <br>
+       Password:    <input type="password" name="password" minlength="8" required> <br> <br>
+       Birthday:    <input type="date" name="birthday"><br><br>
+       
+        Gender: <br>
+        <input type="radio" name="Gender" value="Male">Male <br> <!--indication to pick only one in family-->
+        <input type="radio" name="Gender" value="Female">Female <br>
+        <input type="radio" name="Gender" value="Other">Other <br>
+
+        Pets: <br>
+        <input type="checkbox"  name="cat">Cats<br> <!-- Checkbox selection -->
+        <input type="checkbox"  name="dog">Dog<br>
+
+        Cars: <br>
+        <select name="car">
+            <option value="volvo" >volvo</option> <!-- Dropdown selection -->
+            <option value="Toyota">Toyota</option> 
+        </select> <br> <br>
+
+       <input type="submit" value="Register">
+       <input type="reset">
+   </form>
+</body>
+</html>
